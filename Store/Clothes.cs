@@ -6,7 +6,14 @@ namespace Store
 {
     public class Clothes : Products
     {
-        public enum Size { xs, s, m, l, xl }
+        public enum Size
+        {
+            XS,
+            S,
+            M,
+            L,
+            XL
+        }
         public Size size;
         public string color;
         public DayOfWeek day;
